@@ -1,14 +1,10 @@
 from setuptools import find_packages, setup
 
 setup(
-    
-    name = "multilingual assistant",
-    version=0.0.1,
-    author = "vsanth",
-    author_email="kanva001@gmail",
+    name="multilingual assistant",
+    version="0.0.1",
+    author="sunny",
+    author_email="sunny.savita@ineuron.ai",
     packages=find_packages(),
-    install_requires=[
-        "SpeechRecognition","pinwin","Pyaudio","gTTS","google-generativeai","python-dotenv","streamlit"
-    ]
-    
+    install_requires=["SpeechRecognition","pipwin","pyaudio","gTTS","google-generativeai","python-dotenv","streamlit"]
 )
